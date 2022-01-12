@@ -1,0 +1,70 @@
+body {
+  font-family: "Sora", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+footer {
+  background: #02baf999;
+  margin-top: 80px;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.btn-primary {
+  padding: 15px 30px;
+  background: #ff5363;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: -10px 11px 0px #000000;
+  border-radius: 40px;
+  font-size: 18px;
+}
+
+.continent {
+  height: 300px;
+  border: 1px solid black;
+}
+
+.choose-continent {
+  height: 100%;
+  background-image: url("/assets/images/image\ 5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.nav__hero-content {
+  height: 100vh;
+  background-image: url("/assets/images/hero-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.main-p {
+  width: 750px;
+}
+
+.main-points .row {
+  border: 1px solid black;
+}
+
+.main-points img {
+  width: 300px;
+}
+
+.main-points__text {
+  width: 300px;
+}
+
+.post-image img {
+  width: 80%;
+}
