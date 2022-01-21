@@ -21,7 +21,7 @@
   </head>
   <body>
     <div class="nav__hero-content">
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#"
             ><img src="/assets/images/Logo.png" alt=""
@@ -78,7 +78,9 @@
         <div class="row d-flex align-items-center">
           <div class="hero-content col-6 align-items-center">
             <h1>Explore the best snorkel locations worldwide</h1>
-            <a href="#"><button class="btn-primary">Explore Now</button></a>
+            <a href="#"
+              ><button class="btn-primary mt-3">Explore Now</button></a
+            >
           </div>
         </div>
       </div>
@@ -108,8 +110,10 @@
 
     <section>
       <div class="container main-points">
-        <div class="row h-100 d-flex justify-content-evenly align-items-center">
-          <div class="col-6 main-points__text">
+        <div
+          class="row h-100 d-flex justify-content-between align-items-center"
+        >
+          <div class="col-md-6 main-points__text">
             <h2>Stunning Views</h2>
             <p>
               Bringing you photos of beautiful locations around the world at the
@@ -117,15 +121,21 @@
             </p>
           </div>
 
-          <div class="col-6 d-flex justify-content-center">
-            <img src="/assets/images/Blob 1.png" />
+          <div class="col-md-6 col d-flex justify-content-center">
+            <img class="blob img-fluid" src="/assets/images/Blob 1.png" />
           </div>
         </div>
-        <div class="row mt-5 d-flex justify-content-evenly align-items-center">
-          <div class="col-6">
-            <img src="/assets/images/Blob 2.png" alt="" />
+        <div
+          class="row h-100 mt-5 d-flex justify-content-between align-items-center"
+        >
+          <div class="col-md-6 col d-flex justify-content-center">
+            <img
+              class="blob img-fluid"
+              src="/assets/images/Blob 2.png"
+              alt=""
+            />
           </div>
-          <div class="col-6 main-points__text">
+          <div class="col-md-6 main-points__text">
             <h2>Ocean Love</h2>
             <p>
               For all of those who have love and appreciation for everything the
@@ -139,26 +149,30 @@
 
     <section class="choose-continent text-center">
       <div class="container">
-        <div class="row continent-row-1">
-          <div class="col-4 continent continent-top">
-            <p>North<br />America</p>
+        <div class="row continent-row-1 d-flex justify-content-evenly">
+          <div class="col-3 continent continent-top">
+            <a href="#"
+              ><h4>North<br />America</h4></a
+            >
           </div>
-          <div class="col-4 continent continent-middle continent-top">
-            <p>South<br />America</p>
+          <div class="col-3 continent continent-middle continent-top">
+            <a href="#"
+              ><h4>South<br />America</h4></a
+            >
           </div>
-          <div class="col-4 continent continent-top">
-            <p>Europe</p>
+          <div class="col-3 continent continent-top">
+            <a href="#"> <h4>Europe</h4></a>
           </div>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-evenly">
           <div class="col-3 continent continent-bottom">
-            <p>Africa</p>
+            <a href="#"><h4>Africa</h4></a>
           </div>
           <div class="col-3 continent continent-middle continent-bottom">
-            <p>Asia</p>
+            <a href="#"> <h4>Asia</h4></a>
           </div>
           <div class="col-3 continent continent-bottom continent-bottom">
-            <p>Australia</p>
+            <a href="#"> <h4>Australia</h4></a>
           </div>
         </div>
       </div>
@@ -167,8 +181,12 @@
     <section class="post-image">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <img src="/assets/images/Group 2.png" alt="" />
+          <div class="col-md-6 d-flex justify-content-center">
+            <img
+              class="img-fluid snorkel-photo"
+              src="/assets/images/Group 2.png"
+              alt=""
+            />
           </div>
           <div class="col-md-6 text-center share">
             <h2>Share your photos with us!</h2>
@@ -184,7 +202,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer class="text-center">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -194,18 +212,134 @@
       </svg>
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col">
             <img src="/assets//images/Logo.png" alt="" />
           </div>
-
-          <div class="col-6 text-center">
-            <h3>Main</h3>
-            <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Locations</li>
+        </div>
+        <div class="row mb-3">
+          <div class="col d-flex justify-content-center">
+            <ul class="d-flex justify-content-evenly">
+              <a href="#"><li>Home</li></a>
+              <a href="#"><li>About</li></a>
+              <a href="#"><li>Locations</li></a>
             </ul>
           </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-1">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="30"
+                height="30"
+                viewBox="0 0 172 172"
+                style="fill: #000000"
+              >
+                <g
+                  fill="none"
+                  fill-rule="nonzero"
+                  stroke="none"
+                  stroke-width="1"
+                  stroke-linecap="butt"
+                  stroke-linejoin="miter"
+                  stroke-miterlimit="10"
+                  stroke-dasharray=""
+                  stroke-dashoffset="0"
+                  font-family="none"
+                  font-weight="none"
+                  font-size="none"
+                  text-anchor="none"
+                  style="mix-blend-mode: normal"
+                >
+                  <path d="M0,172v-172h172v172z" fill="none"></path>
+                  <g fill="#3498db">
+                    <path
+                      d="M86,17.2c-37.9948,0 -68.8,30.8052 -68.8,68.8c0,34.49173 25.41013,62.97493 58.5144,67.95147v-49.71947h-17.02227v-18.08293h17.02227v-12.03427c0,-19.92333 9.70653,-28.66667 26.2644,-28.66667c7.9292,0 12.126,0.59053 14.10973,0.85427v15.78387h-11.29467c-7.02907,0 -9.48293,6.66787 -9.48293,14.17853v9.88427h20.59987l-2.79213,18.08293h-17.80773v49.8628c33.58013,-4.55227 59.48907,-33.2648 59.48907,-68.0948c0,-37.9948 -30.8052,-68.8 -68.8,-68.8z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="col-1">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="30"
+                height="30"
+                viewBox="0 0 172 172"
+                style="fill: #000000"
+              >
+                <g
+                  fill="none"
+                  fill-rule="nonzero"
+                  stroke="none"
+                  stroke-width="1"
+                  stroke-linecap="butt"
+                  stroke-linejoin="miter"
+                  stroke-miterlimit="10"
+                  stroke-dasharray=""
+                  stroke-dashoffset="0"
+                  font-family="none"
+                  font-weight="none"
+                  font-size="none"
+                  text-anchor="none"
+                  style="mix-blend-mode: normal"
+                >
+                  <path d="M0,172v-172h172v172z" fill="none"></path>
+                  <g fill="#3498db">
+                    <path
+                      d="M57.32214,17.2c-22.12493,0 -40.12214,18.01386 -40.12214,40.14453v57.33333c0,22.12493 18.01386,40.12214 40.14453,40.12214h57.33333c22.12493,0 40.12214,-18.01386 40.12214,-40.14453v-57.33333c0,-22.12493 -18.01386,-40.12214 -40.14453,-40.12214zM126.13333,40.13333c3.1648,0 5.73333,2.56853 5.73333,5.73333c0,3.1648 -2.56853,5.73333 -5.73333,5.73333c-3.1648,0 -5.73333,-2.56853 -5.73333,-5.73333c0,-3.1648 2.56853,-5.73333 5.73333,-5.73333zM86,51.6c18.9716,0 34.4,15.4284 34.4,34.4c0,18.9716 -15.4284,34.4 -34.4,34.4c-18.9716,0 -34.4,-15.4284 -34.4,-34.4c0,-18.9716 15.4284,-34.4 34.4,-34.4zM86,63.06667c-12.66573,0 -22.93333,10.2676 -22.93333,22.93333c0,12.66573 10.2676,22.93333 22.93333,22.93333c12.66573,0 22.93333,-10.2676 22.93333,-22.93333c0,-12.66573 -10.2676,-22.93333 -22.93333,-22.93333z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="col-1">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="30"
+                height="30"
+                viewBox="0 0 172 172"
+                style="fill: #000000"
+              >
+                <g
+                  fill="none"
+                  fill-rule="nonzero"
+                  stroke="none"
+                  stroke-width="1"
+                  stroke-linecap="butt"
+                  stroke-linejoin="miter"
+                  stroke-miterlimit="10"
+                  stroke-dasharray=""
+                  stroke-dashoffset="0"
+                  font-family="none"
+                  font-weight="none"
+                  font-size="none"
+                  text-anchor="none"
+                  style="mix-blend-mode: normal"
+                >
+                  <path d="M0,172v-172h172v172z" fill="none"></path>
+                  <g fill="#3498db">
+                    <path
+                      d="M137.6,22.93333h-103.2c-6.33533,0 -11.46667,5.13133 -11.46667,11.46667v103.2c0,6.33533 5.13133,11.46667 11.46667,11.46667h103.2c6.33533,0 11.46667,-5.13133 11.46667,-11.46667v-103.2c0,-6.33533 -5.13707,-11.46667 -11.46667,-11.46667zM130.0836,77.25093c-0.74533,0.0688 -1.4964,0.11467 -2.2532,0.11467c-8.57133,0 -16.10493,-4.4032 -20.49093,-11.07107c0,17.48093 0,37.3756 0,37.70813c0,15.394 -12.48147,27.86973 -27.86973,27.86973c-15.38827,-0.00573 -27.86973,-12.4872 -27.86973,-27.87547c0,-15.394 12.48147,-27.86973 27.86973,-27.86973c0.5848,0 1.1524,0.0516 1.72,0.086v13.73707c-0.57333,-0.0688 -1.12947,-0.172 -1.72,-0.172c-7.85467,0 -14.2244,6.36973 -14.2244,14.2244c0,7.85467 6.364,14.2244 14.2244,14.2244c7.8604,0 14.79773,-6.192 14.79773,-14.04667c0,-0.31533 0.1376,-64.04133 0.1376,-64.04133h13.1236c1.23267,11.73613 10.70987,21.0012 22.55493,21.84973z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="row copyright">
+          <p>&copy; SnorkelSpots.com</p>
         </div>
       </div>
     </footer>
