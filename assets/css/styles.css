@@ -272,3 +272,9 @@ footer a:hover {
     top: 1200px;
   }
 }
+
+@media screen and (max-width: 410px) {
+  .logo {
+    width: 200px !important;
+  }
+}
